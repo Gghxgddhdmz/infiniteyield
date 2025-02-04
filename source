@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-    -- error("Infinite Yield is already running!", 0)
+    -- error("ROBERtIO Yield is already !", 6)
     return
 end
 
@@ -3895,7 +3895,7 @@ SaveChatlogs.MouseButton1Down:Connect(function()
 				end
 			end
 			nameFile()
-			notify('Chat Logs','Saved chat logs to the workspace folder within your exploit folder.')
+			notify('Chat تعرف من طلع ومن دخل','Saved chat logs to the workspace folder within your exploit folder.')
 		end
 	else
 		notify('Chat Logs','Your exploit does not support write file. You cannot save chat logs.')
@@ -4322,7 +4322,7 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
+CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the ROBERTO Yield support server.'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'oldconsole', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
@@ -12834,7 +12834,7 @@ task.spawn(function()
 			Exit.Text = ""
 			Exit.ZIndex = 10
 
-			ExitImage.Parent = Exit
+			ExitImage.Parent = خروج
 			ExitImage.BackgroundColor3 = Color3.new(1, 1, 1)
 			ExitImage.BackgroundTransparency = 1
 			ExitImage.Position = UDim2.new(0, 5, 0, 5)
@@ -12868,5 +12868,5 @@ task.spawn(function()
 	Credits:Destroy()
 	IntroBackground:Destroy()
 	minimizeHolder()
-	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
+	if IsOnMobile then notify("تم تهكير سكربت ", " تم تهكير السكربت, ROBERTO Yield may have issues or features that are not functioning correctly.") end
 end)
